@@ -8,7 +8,14 @@ public class MobilSewa {
     private String mobil;
     private double biayaSewa;
     private int durasiSewa;
-
+    /**
+     * Konstruktor untuk menciptakan objek MobilSewa.
+     *
+     * @param pelanggan  Nama pelanggan.
+     * @param mobil      Jenis mobil yang disewa.
+     * @param biayaSewa  Biaya sewa per hari.
+     * @param durasiSewa Durasi penyewaan dalam hari.
+    */
     public MobilSewa(String pelanggan, String mobil, double biayaSewa, int durasiSewa) {
         this.pelanggan = pelanggan;
         this.mobil = mobil;
